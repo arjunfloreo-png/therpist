@@ -38,6 +38,8 @@ dependencies:
   media_kit: ^1.1.10
   media_kit_video: ^1.2.5
   media_kit_libs_video: ^1.0.5
+  agora_rtc_engine: ^6.5.3
+  webview_windows: ^0.4.0
 
 
 dev_dependencies:

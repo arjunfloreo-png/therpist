@@ -4,10 +4,8 @@ import 'package:media_kit/media_kit.dart';
 import 'sessions/session_message.dart';
 
 void main() {
-   WidgetsFlutterBinding.ensureInitialized();
-
-
-  MediaKit.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
+  MediaKit.ensureInitialized();  // ← required
   runApp(const MyApp());
 }
 
